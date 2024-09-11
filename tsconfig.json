@@ -3,7 +3,8 @@
     "target": "es6",
     "module": "commonjs",
     "noEmit": true,
-    // "strict": true,
+    // check whether the types of libraries are existed in the project and node modules
+    "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
